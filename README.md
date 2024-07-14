@@ -43,4 +43,14 @@ conda env create --file env.yml
 
 10)Check if the environment was created successfully with the command shown below:
 
-conda env list 
+conda env list
+
+<br>
+
+![image](https://github.com/user-attachments/assets/5e0b9f84-d05f-4744-9863-1cfdb48e74ce)
+
+<br>
+
+11)Run:
+
+nextflow run vcf_to_csv.nf -with-conda /home/ishagupta/anaconda3/envs/vcftocsv
