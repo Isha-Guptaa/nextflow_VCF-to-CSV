@@ -54,3 +54,9 @@ conda env list
 11)Run:
 
 nextflow run vcf_to_csv.nf -with-conda /home/ishagupta/anaconda3/envs/vcftocsv
+
+<br>
+
+![image](https://github.com/user-attachments/assets/9010b7b9-d224-481c-8209-74536988c818)
+
+<br>
