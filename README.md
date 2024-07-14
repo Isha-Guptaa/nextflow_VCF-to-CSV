@@ -29,8 +29,10 @@ source ~/.bashrc
 6)Ensure installation:
 
 nextflow -version
+
 7)Create env.yaml file with content:
+<br>
 
 ![image](https://github.com/user-attachments/assets/dd02b513-d9ff-4388-8aa6-6d3d6fc25c7c)
 
-
+<br>
