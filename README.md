@@ -7,6 +7,10 @@
 <br>
 2)Java 11 (or later, up to 21) to be installed.
 <br>
+# Input:
+
+Germeline VCF : https://nf-co.re/sarek/3.4.2/results/sarek/results-b5b766d3b4ac89864f2fa07441cdc8844e70a79e/test_full_germline_aws/annotation/haplotypecaller/NA12878/?file=NA12878.haplotypecaller.filtered_VEP.ann.vcf.gz (file: NA12878.haplotypecaller.filtered_VEP.ann.vcf.gz)
+
 # steps:
 1)Download the executable package in your terminal window:
 
