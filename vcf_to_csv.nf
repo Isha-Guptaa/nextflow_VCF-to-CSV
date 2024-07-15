@@ -1,4 +1,4 @@
-params.vcf = "/home/ishagupta/nextflow_workflow/vcf_to_csv/nextflow_python/all.vcf.gz"
+params.vcf = "/data/isha/Documents/repo/nextflow_VCF-to-CSV/NA12878.haplotypecaller.filtered_VEP.ann.vcf.gz"
 
 process VCFtoCSV {
     input:
@@ -9,7 +9,7 @@ process VCFtoCSV {
 
     script:
     """
-    bcftools query -f '%CHROM,%POS,%ID,%REF,%ALT,%INFO/AC,%INFO/DP,%INFO/MQ\n' ${vcf} | sed 's/\\t/,/g' > ${vcf.baseName}.csv
+    bcftools query -f '%CHROM,%POS,%ID,%REF,%ALT,%INFO/AC,%INFO/DP,%INFO/MQ\n' ${vcf} -o ${vcf.baseName}.csv
     """
 }
 
