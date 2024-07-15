@@ -4,7 +4,8 @@
 
 PRE-REQUISITE:
 1)Nextflow requires Bash 3.2 (or later) and Java 11 (or later, up to 21) to be installed.
-2)Download the executable package in your terminal window:
+# steps:
+1)Download the executable package in your terminal window:
 
 wget -qO- https: #get.nextflow.io | bash
 
@@ -12,36 +13,36 @@ or
 
 curl -s https: #get.nextflow.io | bash
 
-3)Make the binary executable:
+2)Make the binary executable:
 
 chmod +x nextflow
 
-4)To add Nextflow to your system PATH:
+3)To add Nextflow to your system PATH:
 
 export PATH="/path/to/nextflow:$PATH"
 
 E.g., export PATH="/home/ishagupta/nextflow/:$PATH"
 
-5)Reload the shell configuration file by running:
+4)Reload the shell configuration file by running:
 
 source ~/.bashrc
 
-6)Ensure installation:
+5)Ensure installation:
 
 nextflow -version
 
-7)Create env.yaml file with content:
+6)Create env.yaml file with content:
 <br>
 
 ![image](https://github.com/user-attachments/assets/dd02b513-d9ff-4388-8aa6-6d3d6fc25c7c)
 
 <br>
 
-9)Given the env.yml recipe file, the environment can be created using the command shown below:
+7)Given the env.yml recipe file, the environment can be created using the command shown below:
 
 conda env create --file env.yaml
 
-10)Check if the environment was created successfully with the command shown below:
+8)Check if the environment was created successfully with the command shown below:
 
 conda env list
 
@@ -51,7 +52,7 @@ conda env list
 
 <br>
 
-11)Run:
+9)Run:
 
 nextflow run vcf_to_csv.nf -with-conda /home/ishagupta/anaconda3/envs/vcftocsv
 
