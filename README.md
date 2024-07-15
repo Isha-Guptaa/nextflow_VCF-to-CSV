@@ -2,8 +2,11 @@
  NEXTFLOW PIPELINE (VCF-to-CSV) USING CONDA FOR DEPENDENCY MANAGEMENT
 
 
-PRE-REQUISITE:
-1)Nextflow requires Bash 3.2 (or later) and Java 11 (or later, up to 21) to be installed.
+# PRE-REQUISITE:
+1)Nextflow requires Bash 3.2 (or later)
+<br>
+2)Java 11 (or later, up to 21) to be installed.
+<br>
 # steps:
 1)Download the executable package in your terminal window:
 
